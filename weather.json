@@ -1,0 +1,26 @@
+{
+  "coord": { "lon": -50.746, "lat": -20.5227 },
+  "weather": [
+    { "id": 800, "main": "Clear", "description": "clear sky", "icon": "01n" }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 289.57,
+    "feels_like": 288.76,
+    "temp_min": 289.57,
+    "temp_max": 289.57,
+    "pressure": 1017,
+    "humidity": 57,
+    "sea_level": 1017,
+    "grnd_level": 973
+  },
+  "visibility": 10000,
+  "wind": { "speed": 2.39, "deg": 55, "gust": 2.46 },
+  "clouds": { "all": 0 },
+  "dt": 1686386818,
+  "sys": { "country": "BR", "sunrise": 1686390910, "sunset": 1686430189 },
+  "timezone": -10800,
+  "id": 3457664,
+  "name": "Dalas",
+  "cod": 200
+}
