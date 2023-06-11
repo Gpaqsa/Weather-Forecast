@@ -36,7 +36,7 @@ function App() {
             <p>{data.name}</p>
           </article>
           <article className="temp">
-            {data.main ? <h1>{data.main.temp} °C</h1> : null}
+            {data.main ? <h1>{data.main.temp.toFixed()} °C</h1> : null}
             {/* <h1>65°C</h1> */}
           </article>
           <article className="description">
@@ -49,7 +49,7 @@ function App() {
           <section className="Bottom">
             <article className="feels">
               {data.main ? (
-                <p className="bold">{data.main.feels_like} °C</p>
+                <p className="bold">{data.main.feels_like.toFixed()} °C</p>
               ) : null}
               <p>Feels Like</p>
             </article>
@@ -61,7 +61,9 @@ function App() {
               <p>Humidity</p>
             </article>
             <article className="wind">
-              {data.wind ? <p className="bold">{data.wind.speed} MPH</p> : null}
+              {data.wind ? (
+                <p className="bold">{data.wind.speed.toFixed()} MPH</p>
+              ) : null}
               {/* <p className="bold">12 MPH</p> */}
               <p>Wind Speed</p>
             </article>
